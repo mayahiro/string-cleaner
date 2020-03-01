@@ -1,0 +1,14 @@
+{
+  "replace_strings": [
+    {
+      "old": "^\\d\\d\\d\\d_",
+      "new": "",
+      "is_regexp": true
+    },
+    {
+      "old": ".mp3",
+      "new": ".mp4",
+      "all": false
+    }
+  ]
+}
