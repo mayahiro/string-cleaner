@@ -38,7 +38,7 @@ func main() {
 	s := bufio.NewScanner(os.Stdin)
 	for s.Scan() {
 		cs := cleanUpString(s.Text(), &c.ReplaceStringSlice)
-		fmt.Printf("%v, %v\n", s.Text(), cs)
+		fmt.Printf("%v,%v\n", s.Text(), cs)
 	}
 	if s.Err() != nil {
 		log.Fatal(s.Err())
